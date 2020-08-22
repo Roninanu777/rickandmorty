@@ -1,0 +1,27 @@
+.animate {
+  animation: fadeInAnimation ease .3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+}
+
+.cardimage img{
+  border-radius: 20px;
+}
+  
+.cardinfo {
+  margin-top: 10px;
+}
+  
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    position: relative;
+    top: 10px;
+  }
+  100% {
+    opacity: 1;
+    position: relative;
+    top: 0;
+  }
+}
+  
